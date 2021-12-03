@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ind">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 6.2</title>
+
+    <style>
+        .box1{
+            display: flex;
+            font-size: 30px;
+        }
+
+        .box2>div {
+            color: black;
+            width: 100px;
+            margin: 0;
+            text-align: start;
+            font-size: 30px;
+        }
+
+        .box3>div>span {
+            margin: 35px;
+            font-size: 30px;
+        }
+
+        .box4>div>div>span {
+            margin: 35px;
+            font-size: 30px;
+        }
+        .box5>div>div>span {
+            color: black;
+            width: 100px;
+            margin: 0;
+            text-align: start;
+            font-size: 30px;
+        }
+      
+    </style>
+</head>
+
+<body style="padding: 50px; box-sizing: border-box;">
+    <div class="box1">
+        <div style="flex-grow: 2; background-color: rgb(211, 140, 199); padding-top: 10px;"><span>Nav</span>
+        </div>
+        <div style="flex-grow: 8; background-color: orangered;">
+            <div class="box2">
+            <div style="background-color: orangered; line-height: 75px;"><span>Header</span></div>
+            </div>
+            <div class="box3" style="background-color: blueviolet; line-height: 475px;">
+                <div class="box">
+                <div style="flex-grow: 8; background-color: green;"><span>Article</span></div>
+                </div>
+                <div class="box4">
+                <div style="flex-grow: 2; background-color:white;"><span>Aside</span></div>
+            </div>
+            <div class="box5">
+            <div style="background-color: red;line-height: 75px;"><span>Footer</span></div>
+        </div>
+    </div>
+
+</body>
+
+</html> 
