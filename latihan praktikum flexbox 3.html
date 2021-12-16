@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ind">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 6.3</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding: 25px;
+            margin: 0%;
+            background-color: paleturquoise;
+        }
+        .container>div {
+            margin: 12px;
+            text-align: start;
+            font-size: 30px;
+            text-align: center;
+            color: black;
+        }
+        .content {
+            display: flex;
+            height: 500px;
+        }
+        .content>div {
+            margin: 12px;
+        }
+        .boxs1 {
+            flex: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: yellowgreen;
+            ;
+        }
+        .boxs2 {
+            flex: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            background-color: blue;
+        }
+        .isiboxs {
+            display: flex;
+            justify-content: center;
+        }
+        .isiboxs>div {
+            width: 30%;
+            margin: 12px 12px 22px;
+            line-height: 200px;
+            background-color:orange;
+        }
+    </style>
+</head>
+<body style="padding: 55px; box-sizing: border-box;">
+    <div class="container">
+        <div class="header" style="background-color:black; line-height: 55px; padding: 15px;">Header</div>
+        <div class="content">
+            <div class="boxs1">Aside</div>
+            <div class="boxs2" style="text-align: center;">
+                <div class="item1">Article</div>
+                <div class="isiboxs">
+                    <div class="image1">image</div>
+                    <div class="image2">image</div>
+                    <div class="image3">image</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer" style="background-color: black; line-height: 55px; padding: 15px;">Footer</div>
+    </div>
+</body>
+</html> 
