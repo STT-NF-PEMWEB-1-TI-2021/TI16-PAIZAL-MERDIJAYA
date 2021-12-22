@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Menghitung Nilai Rupiah</title>
+    <script>
+        function hitung(){
+            let kurs_dollar = document.getElementsById("dollar").value;
+            let kurs_rupiah = document.getElementsById("rupiah").value;
+            let biaya = 0;
+            const nilai_tukar = 14.650;
+            if(selisih <=1){ 
+                biaya = variabel * nilai_tukar;
+            }
+            let area_biaya = document.getElementById("biaya");
+            area_biaya.innerHTML = " Hasil Tukar " + hasil;
+        }
+    </script>
+</head>
+<body>
+    <h2>Nilai Tukar</h2>
+     Kurs Dollar($): <input type="number" value="" size="10" id="dollar"/>
+    <br/>
+    Kurs Rupiah(Rp) : <input type="number" value="" size="10" id="rupiah"/>
+    <br/>
+    <button onclick="hasil_tukar()">Hasil Tukar</button> : <span id="hasil"></span>
+    
+</body>
+</html>

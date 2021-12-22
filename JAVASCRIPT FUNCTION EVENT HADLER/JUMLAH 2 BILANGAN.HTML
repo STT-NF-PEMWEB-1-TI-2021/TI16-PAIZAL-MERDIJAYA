@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Menjumlah 2 buah bilangan</title>
+    <script>
+        function hitung(){
+            let a = number(document.getElementById("bil1").value);
+            let b = number(document.getElementById("bil2").value);
+            let c = a + b;
+            document.getElementById("bil3").value; 
+        }
+    </script>
+</head>
+<body>
+    <form id="frm1">
+        <input type="text" id="bil1" value="" onchange="hitung()"/>
+        <b>+</b><input type="text" id="bil2" value="" onchange="hitung()"/>
+        <b>=</b><input type="text" id="bil3" value=""/>
+    </form>   
+</body>
+</html>
