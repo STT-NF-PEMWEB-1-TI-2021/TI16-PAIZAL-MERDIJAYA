@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Kurs Rupiah - Mata uang Asing</title>
+</head>
+<body>
+    <fieldset>
+        <center>
+        <legend><b>Kurs Rupiah - Mata Uang Asing</b></legend>  
+        <table>
+            <tr>
+            <th>Masukkan Nilai</th>
+            <th>Valas</th>
+            <th>Nilai Rupiah</th>
+            </tr>
+            <tr>
+                  <td><input type="text" name="idr" id="idr" onchange="hitungKurs()"></td>
+          <td>
+            <select id="kurs" name="kurslist" onchange="hitungKurs()">
+              <option value="usd">Dollar US</option>
+              <option value="sgd">Dollar Singapore</option>
+              <option value="myr">Ringgit Malaysia</option>
+              <option value="jpy">Yen Jepang</option>
+              <option value="eur">Euro</option>
+              <option value="sar">Riyal Arab Saudi</option>
+            </select>
+          </td>
+          <td><input type="text" name="hasil" id="hasil" disabled onchange="hitungKurs()"></td>
+        </tr>
+      </table>
+    </center> 
+    </fieldset>
+  </div>
+  <script>
+    function hitung(){
+        let kurs_dollar = document.getElementsById("usd").value;
+        let kurs_rupiah = document.getElementsById("rupiah").value;
+        let biaya = 0;
+        const nilai_tukar = 9915;
+        if(selisih <=1){ 
+            biaya = variabel * nilai_tukar;
+        }
+        let area_biaya = document.getElementById("biaya");
+        area_biaya.innerHTML = " Hasil Tukar " + hasil;
+    }
+    function hitung(){
+        let kurs_dollar = document.getElementsById("sgd").value;
+        let kurs_rupiah = document.getElementsById("rupiah").value;
+        let biaya = 0;
+        const nilai_tukar = 13472;
+        if(selisih <=1){ 
+            biaya = variabel * nilai_tukar;
+        }
+        let area_biaya = document.getElementById("biaya");
+        area_biaya.innerHTML = " Hasil Tukar " + hasil;
+    }
+    function hitung(){
+        let kurs_dollar = document.getElementsById("myr").value;
+        let kurs_rupiah = document.getElementsById("rupiah").value;
+        let biaya = 0;
+        const nilai_tukar = 874;
+        if(selisih <=1){ 
+            biaya = variabel * nilai_tukar;
+        }
+        let area_biaya = document.getElementById("biaya");
+        area_biaya.innerHTML = " Hasil Tukar " + hasil;
+    }
+    function hitung(){
+        let kurs_dollar = document.getElementsById("jpy").value;
+        let kurs_rupiah = document.getElementsById("rupiah").value;
+        let biaya = 0;
+        const nilai_tukar = 120;
+        if(selisih <=1){ 
+            biaya = variabel * nilai_tukar;
+        }
+        let area_biaya = document.getElementById("biaya");
+        area_biaya.innerHTML = " Hasil Tukar " + hasil;
+    }
+    function hitung(){
+        let kurs_dollar = document.getElementsById("eur").value;
+        let kurs_rupiah = document.getElementsById("rupiah").value;
+        let biaya = 0;
+        const nilai_tukar = 15888;
+        if(selisih <=1){ 
+            biaya = variabel * nilai_tukar;
+        }
+        let area_biaya = document.getElementById("biaya");
+        area_biaya.innerHTML = " Hasil Tukar " + hasil;
+    }
+    function hitung(){
+        let kurs_dollar = document.getElementsById("sar").value;
+        let kurs_rupiah = document.getElementsById("rupiah").value;
+        let biaya = 0;
+        const nilai_tukar = 3592;
+        if(selisih <=1){ 
+            biaya = variabel * nilai_tukar;
+        }
+        let area_biaya = document.getElementById("biaya");
+        area_biaya.innerHTML = " Hasil Tukar " + hasil;
+    }
+</script>
+</body>
+</html>
